@@ -1,13 +1,13 @@
 # Smart-Plant-Disease-Detector
 <div align="center">
 
-### 🥈 2nd Place — ACSEF 2025 (Alameda County Science & Engineering Fair)
+###  2nd Place — ACSEF 2025 (Alameda County Science & Engineering Fair)
 
 *A fully autonomous, offline Edge AI system for real-time plant disease detection and diagnosis.*
 
 *Runs entirely on a Raspberry Pi 5 — no cloud, no internet dependency.*
 
-[![Demo Video](https://img.shields.io/badge/▶_Watch_Demo-YouTube-red?style=for-the-badge\&logo=youtube)](YOUR_YOUTUBE_LINK_HERE)
+[![Demo Video](https://img.shields.io/badge/▶_Watch_Demo-YouTube-red?style=for-the-badge\&logo=youtube)]((https://youtu.be/Jkl1dW81xoY))
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]()
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-111111?style=for-the-badge)]()
 [![Ollama](https://img.shields.io/badge/Qwen_2.5_1.5B-Ollama-000000?style=for-the-badge)]()
@@ -15,9 +15,8 @@
 
 </div>
 
----
 
-## 📌 Overview
+## Overview
 
 Early-stage plant disease detection is critical for preventing crop loss, yet most existing solutions rely on cloud infrastructure, expensive GPU hardware, or manual inspection. These constraints make them impractical for small-scale farmers, greenhouses, and remote agricultural environments.
 
@@ -38,26 +37,25 @@ All inference runs locally on a Raspberry Pi 5, enabling:
 
 This system demonstrates a **multimodal edge AI pipeline**, combining vision + sensor data + language reasoning in a single embedded device.
 
----
 
-## 🏆 Recognition
+
+##  Recognition
 
 | Award        | Event                                                  |
 | ------------ | ------------------------------------------------------ |
 | 🥈 2nd Place | ACSEF 2025 — Alameda County Science & Engineering Fair |
 
----
 
-## 🌍 Real-World Impact
+##  Real-World Impact
 
 * Enables **early disease detection** to reduce crop loss
 * Accessible to **low-resource farmers** without internet
 * Reduces reliance on **manual inspection**
 * Demonstrates scalable architecture for **precision agriculture**
 
----
 
-## 🏗️ System Architecture
+
+##  System Architecture
 
 ```
 Camera → Preprocessing → YOLO Detection → Temporal Voting → LLM Reasoning → SMS Alert
@@ -65,9 +63,9 @@ Camera → Preprocessing → YOLO Detection → Temporal Voting → LLM Reasonin
                     Sensor Data
 ```
 
----
 
-## 🔌 Hardware Components
+
+##  Hardware Components
 
 | Component             | Specification    | Purpose             |
 | --------------------- | ---------------- | ------------------- |
@@ -77,9 +75,9 @@ Camera → Preprocessing → YOLO Detection → Temporal Voting → LLM Reasonin
 | Soil Sensor + ADS1115 | Analog → digital | Soil moisture       |
 | BH1750                | Lux sensor       | Light intensity     |
 
----
 
-## 🧠 Detection Classes
+
+## Detection Classes
 
 | Class               | Category        | Description        |
 | ------------------- | --------------- | ------------------ |
@@ -90,9 +88,9 @@ Camera → Preprocessing → YOLO Detection → Temporal Voting → LLM Reasonin
 | patchy_spots        | spots_or_damage | Infection patterns |
 | holes_chew_damage   | spots_or_damage | Physical damage    |
 
----
 
-## 📊 Performance Metrics
+
+## Performance Metrics
 
 | Metric                   | Value                                     |
 | ------------------------ | ----------------------------------------- |
@@ -111,9 +109,9 @@ Camera → Preprocessing → YOLO Detection → Temporal Voting → LLM Reasonin
 * Tiling improved small-feature detection accuracy
 * Stable performance across moderate lighting variations
 
----
 
-## ⚙️ Technical Design Decisions
+
+## Technical Design Decisions
 
 ### 1. Temporal Voting (False Positive Reduction)
 
@@ -137,9 +135,9 @@ System continues operating even if sensors, LLM, or SMS fail.
 * Sequential pipeline scheduling
 * Efficient I2C sensor polling
 
----
 
-## 🧪 Dataset & Training
+
+##  Dataset & Training
 
 ### Dataset Sources
 
@@ -157,9 +155,9 @@ System continues operating even if sensors, LLM, or SMS fail.
 
 Focused on fine-grained disease patterns to improve real-world detection accuracy.
 
----
 
-## 🚀 Quickstart
+
+## Quickstart
 
 ```bash
 git clone https://github.com/tarunsrinivasan1213-create/Smart-Plant-Disease-Detector
@@ -175,9 +173,9 @@ cp .env.example .env
 python monitor.py
 ```
 
----
 
-## 📁 Project Structure
+
+##  Project Structure
 
 ```
 monitor.py
@@ -187,18 +185,18 @@ logs/
 out/
 ```
 
----
 
-## ⚠️ Limitations
+
+##  Limitations
 
 * Limited dataset diversity affects generalization
 * Performance depends on lighting conditions
 * LLM recommendations are heuristic-based
 * Tiling increases latency
 
----
 
-## 🔮 Future Work
+
+##  Future Work
 
 * Expand dataset across plant species
 * Integrate hardware accelerators (TPU/NPU)
@@ -206,29 +204,29 @@ out/
 * Optimize LLM for faster inference
 * Add mobile dashboard
 
----
 
-## 🔐 Security
+
+##  Security
 
 * Uses `.env` for credential management
 * No hardcoded secrets
 * Fully local inference
 
----
 
-## 👤 Author
+
+##  Author
 
 **Tarun Srinivasan Muthumari**
 Edge AI · Computer Vision · Embedded Systems
 Fremont, CA
 
----
 
-## 📄 License
+
+##  License
 
 MIT License
 
----
+
 
 <div align="center">
 <sub>Built with YOLOv8 · Raspberry Pi 5 · Ollama · Presented at ACSEF 2025</sub>
