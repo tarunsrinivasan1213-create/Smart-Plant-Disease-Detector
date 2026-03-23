@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+numpy
+python-dotenv
+twilio
+adafruit-circuitpython-bh1750
+adafruit-circuitpython-sht4x
+adafruit-circuitpython-ads1x15
+RPi.GPIO
+board
