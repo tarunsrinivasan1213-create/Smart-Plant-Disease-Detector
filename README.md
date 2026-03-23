@@ -7,11 +7,6 @@
 
 *Runs entirely on a Raspberry Pi 5 — no cloud, no internet dependency.*
 
-[![Demo Video](https://img.shields.io/badge/▶_Watch_Demo-YouTube-red?style=for-the-badge\&logo=youtube)]((https://youtu.be/Jkl1dW81xoY))
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]()
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-111111?style=for-the-badge)]()
-[![Ollama](https://img.shields.io/badge/Qwen_2.5_1.5B-Ollama-000000?style=for-the-badge)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 </div>
 
