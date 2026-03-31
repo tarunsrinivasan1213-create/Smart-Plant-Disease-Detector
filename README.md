@@ -165,7 +165,7 @@ ollama pull qwen2.5:1.5b
 cp .env.example .env
 # Add Twilio credentials
 
-python monitor.py
+python Plant-monitor.py
 ```
 
 
