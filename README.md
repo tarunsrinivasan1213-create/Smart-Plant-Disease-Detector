@@ -173,7 +173,7 @@ python Plant-monitor.py
 ##  Project Structure
 
 ```
-monitor.py
+Plant-monitor.py
 models/
 data/
 logs/
